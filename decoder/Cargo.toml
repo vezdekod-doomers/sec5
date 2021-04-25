@@ -1,0 +1,10 @@
+[package]
+name = "decoder"
+version = "0.1.0"
+authors = ["alesharikReserv@yandex.ru <alesharikReserv@yandex.ru>"]
+edition = "2018"
+
+[dependencies]
+rust-crypto = "0.2.36"
+base64 = "0.13.0"
+rand = { version = "0.8.3", features = ["getrandom"] }
